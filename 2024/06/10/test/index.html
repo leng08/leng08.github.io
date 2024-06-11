@@ -180,7 +180,7 @@
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://hexo-seven-pearl.vercel.app/',
+      envId: 'https://hexo-pk95col8m-slengs-projects-7d9983f7.vercel.app/',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -194,7 +194,7 @@
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://hexo-seven-pearl.vercel.app/',
+      envId: 'https://hexo-pk95col8m-slengs-projects-7d9983f7.vercel.app/',
       region: '',
       onCommentLoaded: () => {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
